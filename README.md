@@ -1,1 +1,283 @@
 # Moon
+
+Linguagem de Programação Moon.<br>
+Stable 6.6.6
+
+```
+funcao fibonacci(n, _a, _ba)
+  se n == 0 entao
+    retorne _a
+  senaose n == 1 entao
+    retorne _b
+  fim
+  retorne fibonacci(n - 1, _b, _a + _b)
+fim
+
+local f = fibonacci(20, 0, 1)
+imprimir(cadeia.repetir(f .. "? E dai?\n", f))
+```
+
+<hr>
+<details>
+  <summary>Palavras-chave e operadores</summary>
+  e<br>
+  quebre<br>
+  faca<br>
+  senao<br>
+  senaose<br>
+  fim<br>
+  falso<br>
+  para<br>
+  funcao<br>
+  vapara<br>
+  se<br>
+  em<br>
+  local<br>
+  nulo<br>
+  nao<br>
+  ou<br>
+  repita<br>
+  retorne<br>
+  entao<br>
+  verdadeiro<br>
+  ate<br>
+  enquanto<br>
+  ..<br>
+  ...<br>
+  ==<br>
+  >=<br>
+  <=<br>
+  ~=<br>
+  ::<br>
+  +<br>
+  -<br>
+  *<br>
+  /<br>
+  ^<br>
+  [<br>
+  ]<br>
+  (<br>
+  )<br>
+  '<br>
+  "<br>
+</details>
+
+<details>
+	<summary>Metatabelas</summary>
+	__indice<br>
+	__novoindice<br>
+	__cl<br>
+	__modo<br>
+	__tamanho<br>
+	__ig<br>
+	__adc<br>
+	__sub<br>
+	__mul<br>
+	__div<br>
+	__resto<br>
+	__potencia<br>
+	__unario<br>
+	__menor<br>
+	__menorigual<br>
+	__concatenar<br>
+	__chamar<br>
+	__paracadeia<br>
+</details>
+
+<details>
+  <summary>Tipos</summary>
+  dadousuario<br>
+  nulo<br>
+  booleano<br>
+  numero<br>
+  cadeia<br>
+  tabela<br>
+  funcao<br>
+  ramificacao<br>
+</details>
+<hr>
+<details>
+	<summary>Base</summary>
+	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;afirmar<br>
+	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;coletarlixo<br>
+	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;fazerarquivo<br>
+	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;erro<br>
+	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;pegarmetatabela<br>
+	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;ipares<br>
+	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;carregaraquivo<br>
+	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;carregar<br>
+	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;carregarcadeia<br>
+	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;proximo<br>
+	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;pares<br>
+	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;chamadap<br>
+	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;imprimir<br>
+	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;igualcru<br>
+	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;tamanhocru<br>
+	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;pegarcru<br>
+	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;definircru<br>
+	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;selecionar<br>
+	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;definirmetatabela<br>
+	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;paranumero<br>
+	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;paracadeia<br>
+	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;tipo<br>
+	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;chamadaep<br>
+	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;desembalar<br>
+	 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;_G<br>
+	 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;_VERSAO<br>
+</details>
+
+<details>
+  <summary>bit32</summary>
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;descolamentoaritmetico<br>
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;be<br>
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;bnao<br>
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;bou<br>
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;boue<br>
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;bteste<br>
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;extrair<br>
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;girare<br>
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;desolocamentoesquerda<br>
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;substituir<br>
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;girard<br>
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;desolocamentodireita<br>
+</details>
+
+<details>
+  <summary>cadeia</summary>
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;byte<br>
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;caractere<br>
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;despejar<br>
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;encontrar<br>
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;formatar<br>
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;corresponderg<br>
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;subg<br>
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;tamanho<br>
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;minuscula<br>
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;corresponder<br>
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;repetir<br>
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;inverter<br>
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;sub<br>
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;maiuscula<br>
+</details>
+
+<details>
+	<summary>corotina</summary>
+	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;criar<br>
+	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;resumir<br>
+	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;rodando<br>
+	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;estado<br>
+	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;embrulhar<br>
+	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;render<br>
+</details>
+
+<details>
+	<summary>depurar</summary>
+	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;depurar<br>
+	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;pegarvalorusuario<br>
+	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;pegargancho<br>
+	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;pegarinfo<br>
+	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;pegarlocal<br>
+	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;pegarregistro<br>
+	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;pegarmetatabela<br>
+	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;pegarclausura<br>
+	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;entrarclausura<br>
+	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;idclausura<br>
+	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;definirvalorusuario<br>
+	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;definirgancho<br>
+	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;definirlocal<br>
+	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;definirmetatabela<br>
+	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;definirclausura<br>
+	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;retroceder<br>
+</details>
+
+<details>
+	<summary>es</summary>
+	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;fechar<br>
+	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;salvar<br>
+	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;entrada<br>
+	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;linhas<br>
+	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;abrir<br>
+	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;saida<br>
+	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;abrirp<br>
+	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;ler<br>
+	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;arquivotemp<br>
+	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;tipo<br>
+	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;escrever<br>
+	<br>
+	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:fechar<br>
+	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:salvar<br>
+	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:linhas<br>
+	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:ler<br>
+	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:procurar<br>
+	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:definirvbuf<br>
+	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:escrever<br>
+</details>
+
+<details>
+	<summary>matematica</summary>
+	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;ans<br>
+	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;acos<br>
+	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;aseno<br>
+	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;atan2<br>
+	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;atan<br>
+	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;teto<br>
+	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;cosh<br>
+	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;cos<br>
+	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;grau<br>
+	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;pex<br>
+	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;chao<br>
+	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;resto<br>
+	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;frpex<br>
+	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;ldpex<br>
+	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;log10<br>
+	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;log<br>
+	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;max<br>
+	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;min<br>
+	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;absoluto_decimal<br>
+	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;potencia<br>
+	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;radiano<br>
+	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;randomico<br>
+	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;sementerandomica<br>
+	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;senoh<br>
+	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;seno<br>
+	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;raizquadrada<br>
+	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;tanh<br>
+	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;tan<br>
+	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;pi<br>
+	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;enorme<br>
+</details>
+
+<details>
+  <summary>pacote</summary>
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;carregarbiblioteca<br>
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;procurarcaminho<br>
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;vertudo<br>
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;modulo<br>
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;requisitar<br>
+</details>
+
+<details>
+	<summary>so</summary>
+	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;relogio<br>
+	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;data<br>
+	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;diftempo<br>
+	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;executar<br>
+	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;sair<br>
+	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;pegarambiente<br>
+	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;remover<br>
+	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;renomear<br>
+	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;definirlocal<br>
+	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;tempo<br>
+	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;nometemp<br>
+</details>
+
+<details>
+	<summary>tabela</summary>
+	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;concatenar<br>
+	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;nmax<br>
+	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;inserir<br>
+	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;embalar<br>
+	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;desembalar<br>
+	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;remover<br>
+	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;ordenar<br>
+</details>
