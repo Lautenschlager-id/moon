@@ -34,10 +34,10 @@
 
 /* ORDER RESERVED */
 static const char *const luaX_tokens [] = {
-    "e", "quebrar", "faca", "senao", "senaose",
+    "e", "quebre", "faca", "senao", "senaose",
     "fim", "falso", "para", "funcao", "vapara", "se",
-    "em", "local", "nulo", "nao", "ou", "repetir",
-    "retornar", "entao", "verdadeiro", "ate", "enquanto",
+    "em", "local", "nulo", "nao", "ou", "repita",
+    "retorne", "entao", "verdadeiro", "ate", "enquanto",
     "..", "...", "==", ">=", "<=", "~=", "::", "<fdl>",
     "<numero>", "<nome>", "<cadeia>"
 };
