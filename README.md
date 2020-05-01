@@ -4,7 +4,7 @@ Linguagem de Programação Moon.<br>
 Stable 6.6.6
 
 ```
-funcao fibonacci(n, _a, _ba)
+funcao fibonacci(n, _a, _b)
   se n == 0 entao
     retorne _a
   senaose n == 1 entao
